@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    /* background-color: #d4d6d9; */
+}
+:root {
+    --main-bg-color: #2874f0;
+  }  
+header{
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 79.5px;
+    padding: 0 23px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 12vh;
+    padding: 0 23px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-decoration: none;
+}
+.search input{
+    border-radius: 5px;
+    margin: 0 90px;
+    width: 420px;
+    padding: 0 12px;
+}
+.slider{
+        display: flex;
+        justify-content: center;
+}
+.container{
+    min-height: calc(100vh - 12vh - 12vh);
+    background-color: #d4d6d9;
+}
+.cards{
+    display: flex;
+    overflow: hidden;
+    font-family: 'Mukta', sans-serif;
+    margin: 30px auto;
+    width: 80vw;
+}
+.card-items{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+    /* overflow: hidden; */
+}
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
